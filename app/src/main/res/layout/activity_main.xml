@@ -28,13 +28,13 @@
             android:textColor="@android:color/white" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/appTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_centerInParent="true"
-            android:text="Make everyday decisions easier!"
+            android:text="@string/appTitle"
             android:textColor="@android:color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -44,8 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/ball1" />
+            android:layout_centerVertical="true"/>
     </RelativeLayout>
 
 </RelativeLayout>
